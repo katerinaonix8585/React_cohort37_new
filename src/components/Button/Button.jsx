@@ -1,7 +1,7 @@
 import "./styles.css";
 
-function Button({name, type='button'}){
-    return <button className="button-component" type={type}>
+function Button({name, type='button', onButtonClick}){
+    return <button onClick={onButtonClick} className="button-component" type={type}>
      {name}
     </button>
 }
