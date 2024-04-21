@@ -1,4 +1,4 @@
-import "./style.css";
+import "./styles.css";
 
 function Button() {
 const sendButtonName = 'Send';
