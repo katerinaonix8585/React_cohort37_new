@@ -16,8 +16,8 @@ function Feedback () {
       };  
 
     const onReset = () => {
-        setCountLike((prevValue) => 0);
-        setCountDislike((prevValue) => 0);
+        setCountLike(0);
+        setCountDislike(0);
       };    
     
 
