@@ -1,12 +1,22 @@
 import "./styles.css";
 
-function Button({ buttonName = 'Get data', isPrimaryButton = false }) {
-    const buttonClass = `main-button ${isPrimaryButton ? "primary-button" : "secondary-button"}`;
-    
-    return <button className={buttonClass}>
-        {buttonName}
-    </button>;
+function Button({name, type='button'}){
+    return <button className="button-component" type={type}>
+     {name}
+    </button>
 }
+
+export default Button;
+
+// Lesson03
+
+// function Button({ buttonName = 'Get data', isPrimaryButton = false }) {
+//     const buttonClass = `main-button ${isPrimaryButton ? "primary-button" : "secondary-button"}`;
+    
+//     return <button className={buttonClass}>
+//         {buttonName}
+//     </button>;
+// }
 
 
 // Lesson02
@@ -19,5 +29,3 @@ function Button({ buttonName = 'Get data', isPrimaryButton = false }) {
 //        {isGetButton ? getButtonName : sendButtonName} data
 //         </button>;
 // }
-
- export default Button;
