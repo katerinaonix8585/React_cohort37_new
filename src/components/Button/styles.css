@@ -7,3 +7,12 @@
   border: none;
   border-radius: 4px;
 }
+
+.primary-button {
+  background: rgb(109, 101, 160);
+
+}
+
+.secondary-button {
+  background: rgb(161, 196, 65);
+}
