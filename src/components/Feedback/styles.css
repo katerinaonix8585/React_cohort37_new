@@ -1,0 +1,17 @@
+.feedback-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedback-content-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.feedback-content-container>p {
+    font-size: 30px;
+    font-weight: bold;
+}
